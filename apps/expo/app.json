@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "yourprojectsname",
+    "name": "advent-of-tamagui",
     "slug": "advent-of-tamagui",
-    "scheme": "yourprojectsname",
+    "scheme": "advent-of-tamagui",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,20 +20,23 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourprojectsname.app"
+      "bundleIdentifier": "com.advent-of-tamagui.app",
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.yourprojectsname.app"
+      "package": "com.benschac.adventoftamagui",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-build-properties"
     ],
     "extra": {
       "router": {
