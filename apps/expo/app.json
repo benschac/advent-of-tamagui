@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "yourprojectsname",
-    "slug": "yourprojectsname",
+    "slug": "advent-of-tamagui",
     "scheme": "yourprojectsname",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -34,6 +34,15 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1d641762-3e7f-4438-9558-dab139ce6ecf"
+      }
+    },
+    "owner": "benschac"
   }
 }
