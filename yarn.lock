@@ -5591,7 +5591,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^8.0.0, ajv@npm:^8.0.1, ajv@npm:^8.9.0":
+"ajv@npm:^8.0.0, ajv@npm:^8.0.1, ajv@npm:^8.11.0, ajv@npm:^8.9.0":
   version: 8.12.0
   resolution: "ajv@npm:8.12.0"
   dependencies:
@@ -6443,6 +6443,20 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 34e56fb7e3b481dd00623c3a741e681adab651c4c590cb7d2df59457411fc279a9479cb0a891dc2db7a57cc0761dec99b2d9f2cf2767fb2efdc56f36378b36b9
+  languageName: node
+  linkType: hard
+
+"burnt@npm:^0.12.1":
+  version: 0.12.1
+  resolution: "burnt@npm:0.12.1"
+  dependencies:
+    sf-symbols-typescript: "npm:^1.0.0"
+    sonner: "npm:^0.3.5"
+  peerDependencies:
+    expo: "*"
+    react: "*"
+    react-native: "*"
+  checksum: 442fb867daecb36ae88bbfffc9e911e33c31b642155af0d2c15c7387a836f44f89d25a84c4506daba73804b4d70fbf830a9d0c09ba480517049bec0a77c19144
   languageName: node
   linkType: hard
 
@@ -8523,9 +8537,10 @@ __metadata:
     app: "npm:0.0.0"
     babel-plugin-module-resolver: "npm:^4.1.0"
     babel-plugin-transform-inline-environment-variables: "npm:^0.4.4"
-    burnt: "npm:^0.11.0"
+    burnt: "npm:^0.12.1"
     cross-env: "npm:^7.0.3"
     expo: "npm:^49.0.0"
+    expo-build-properties: "npm:~0.8.3"
     expo-constants: "npm:~14.4.2"
     expo-dev-client: "npm:~2.4.11"
     expo-font: "npm:~11.4.0"
@@ -8569,6 +8584,18 @@ __metadata:
     path-browserify: "npm:^1.0.0"
     url-parse: "npm:^1.5.9"
   checksum: 2b6ac86e16b3a05c9afb3435e86cc27edb4ede81b1eb1e9e09b2575c90c2def87184617ef410f1cf5602d08dd1fa5ccc39bff837f8fe2278a004cdaa44575850
+  languageName: node
+  linkType: hard
+
+"expo-build-properties@npm:~0.8.3":
+  version: 0.8.3
+  resolution: "expo-build-properties@npm:0.8.3"
+  dependencies:
+    ajv: "npm:^8.11.0"
+    semver: "npm:^7.5.3"
+  peerDependencies:
+    expo: "*"
+  checksum: f255519b68fd9d7fb3a8dd15c8f056cecb36a7aa2469d3c2ee37592d1a07dc8726d8d26dd22942ce776c99ebdcd3f30495b71e8151df0412a141038654e8f6f5
   languageName: node
   linkType: hard
 
